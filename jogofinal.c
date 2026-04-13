@@ -34,7 +34,7 @@ int main() {
         printf("  2 - Cobra na Caixa\n");
         printf("  3 - Gousmas War\n");
         printf("  4 - Sair\n\n");
-        printf("  Escolha uma op��o: ");
+        printf("  Escolha uma opção: ");
 
         // repete ate receber uma opcao valida
         while (1) {
@@ -482,8 +482,12 @@ void jogoGousmasWar() {
             printf("  +--------------------------------------+\n");
             printf("  |           GOUSMAS WAR                |\n");
             printf("  +--------------------------------------+\n\n");
+            printf("  === DESCRICAO ===\n");
+            printf("  Dois jogadores controlam 2 Gousmas cada.\n");
+            printf("  Cada Gousma comeca com furia 1.\n");
+            printf("  Se a furia passar de 5, a Gousma e destruida.\n");
+            printf("  Quem ficar sem Gousmas perde!\n\n");
             printf("  = PRESSIONE 1 PARA CONTINUAR = \n");
-
             limpar = lerNumero();
 
         } while (limpar != 1);
